@@ -4,7 +4,6 @@ div {
       border: solid black 1px;
       display: inline-block;
     }
- 
-    .pinkBG{
+.pinkBG{
       background-color: lightpink;
     }
