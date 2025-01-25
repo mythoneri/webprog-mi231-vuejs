@@ -6,8 +6,7 @@
       <p class="custom-paragraph">
         Hi! I'm <b>Nerimiah Jay Ato</b>, also known as <b>Mito</b>! I am a perceptive and introverted individual. Depending on the social group, I may be silent or outgoing. In addition, I enjoy listening to a variety of musical styles, including pop, jazz, classical, and others.
       </p>
-      <img src="images/my profile.png" alt="Profile" class="custom-image">
-    </div>
+      </div>
 
     <h2>Hobbies & Interests</h2>
     <p>My interests include reading, listening to many genres, and playing several musical instruments. Additionally, sports include volleyball, table tennis, basketball, and badminton. Lastly, being a mobile photographer. I love capturing memorable moments of my friends and loved ones.</p>
