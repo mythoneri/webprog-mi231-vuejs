@@ -1,8 +1,18 @@
-<script></script>
- 
 <template>
-<h1>Hello! I'm Nerimiah Jay Ato</h1>
-<p>Nice to meet you all!</p>
+  <h1>Food</h1>
+  <food-item/>
+  <food-item/>
+  <food-item/>
 </template>
- 
-<style></style>
+
+<script></script>
+
+<style>
+  #app > div {
+        border: dashed black 1px;
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color: lightgreen;
+    }
+</style>           
