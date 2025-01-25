@@ -1,5 +1,4 @@
 <template>
-  <template>
   <div class="section" id="aboutMe">
     <h2>About Me</h2>
     <div class="text-image-container">
@@ -30,32 +29,9 @@
       I've coded in Python, Java, HTML, and CSS. I have also acquired skills in sound system operation and delivered lessons on Microsoft Sway.
     </p>
   </div>
+</div>
+</template>
 
-  <div class="section gallery" id="gallery">
-    <h2>Picture Gallery</h2>
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-4 mb-3">
-        <img src="images/msc.jpg" alt="Music" class="gallery-image">
-      </div>
-      <div class="col-md-4 mb-3">
-        <img src="images/photography.jpg" alt="Photography" class="gallery-image">
-      </div>
-      <div class="col-md-4 mb-3">
-        <img src="images/strings.jpg" alt="Instruments" class="gallery-image">
-      </div>
-      <div class="col-md-4 mb-3">
-        <img src="images/mi231.jpg" alt="College" class="gallery-image">
-      </div>
-      <div class="col-md-4 mb-3">
-        <img src="images/family.jpg" alt="Family" class="gallery-image">
-      </div>
-      <div class="col-md-4 mb-3">
-        <img src="images/gmrc.jpg" alt="Community" class="gallery-image">
-      </div>
-    </div>
-  </div>
-</template>
-</template>
 
 
 <script></script>
