@@ -1,16 +1,16 @@
 <template>
   <h1>Food</h1>
-  <ul>
+     <ul>
       <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
     </ul>
-      <br>
+    <br>
   <food-item/>
   <food-item2/>
   <food-item/>
-  <personal-profile/>
+  <personal-profile/> 
 </template>
 
-<script setup>
+ <script setup>
   import { ref, onMounted } from 'vue'
   import { supabase } from './lib/supabaseClient'
 
@@ -25,7 +25,4 @@
     getCountries()
   })
   </script>
-
-<style>
   
-</style>           
