@@ -1,7 +1,7 @@
 <template>
     <h1>Comments</h1>
     <ul>
-      <li v-for="comment in comments" :key="comment.id">{{ comment.name }} {{ comment.comments }}</li>
+      <li v-for="comments in comments" :key="comments.id">{{ comments.name }} {{ comments.comments }}</li>
     </ul>
   </template>
   
