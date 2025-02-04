@@ -10,7 +10,7 @@
   <personal-profile/> 
   <comment-form/>
   <comment/>
-  
+
 </template>
 
  <script setup>
@@ -26,6 +26,17 @@
 
   onMounted(() => {
     getCountries()
+  })
+
+  const comments = ref([])
+
+  async function getComments() {
+    const { data } = await supabase.from('comments').select()
+    comments.value = data
+  }
+
+  onMounted(() => {
+    getComments()
   })
   </script>
   
