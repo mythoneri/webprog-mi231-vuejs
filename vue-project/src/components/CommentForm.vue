@@ -50,10 +50,9 @@
     <style scoped>
     /* Basic styling - Customize as needed */
     div {
-      max-width: 400px; /* Limit the container's width */
+      max-width: 800px; /* Limit the container's width */
       margin: auto; /* Center the container */
       padding: 1rem; /* Add padding around the container */
-      border: 1px dashed #000; /* Keep the dashed border for visibility */
       background-color: #fffbea; /* Light yellow background */
     }
     
