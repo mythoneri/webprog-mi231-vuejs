@@ -16,6 +16,8 @@
   <ul>
     <li v-for="comment in comments" :key="comment.id">{{ comment.text }}</li>
   </ul>
+  <rest-api/>
+
 </template>
 
 <script setup>
